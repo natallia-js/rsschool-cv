@@ -1,3 +1,5 @@
+# My Resume!!!
+
 1. **First Name:** Natallia, **Last Name:** Fedartsova
 1. **Contact Info:**
 
@@ -13,7 +15,7 @@
      I wonder what I should write here? Several lines of code? What kind of code? What language?... What for?
 1. **Experience:**
 
-     ***My Main Projects for Belarussian Railway:***
+     * ***My Main Projects for Belarussian Railway:***
      
         * Software for loggin traffic controller's orders as a part of a train control system (C++, Firebird)
         * Unified system for maintaining the schedule of executed train traffic (C#, MS SQL)
@@ -35,15 +37,16 @@
      
           PhD (physical and mathematical sciences)
      * ***Trainings:***
+     
           * _Institute of Control and Social Technologies, Belarussian State University_
           
-            Course: Dynamic web-pages developing using JavaScript
+            _Course_: Dynamic web-pages developing using JavaScript
           * _Belarussian State Institute for Continuing Education and Retraining of Personnel in Standardization, Metrology and Quality Management_
           
-            Course: Certification of products and services (training of railway expert auditors)
+            _Course_: Certification of products and services (training of railway expert auditors)
           * _Institute of Informatization and Management Technologies, Belarussian State University_
           
-            Course: Development of security tasks based on security profiles
+            _Course_: Development of security tasks based on security profiles
 1. **English:**
      * 3-year course of abstracting and translation of scientific and technical literature, Belarussian State University of Computer Science and Radioengineering
      
