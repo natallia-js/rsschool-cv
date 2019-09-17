@@ -1,3 +1,4 @@
 # rsschool-cv
-My Resume
+**My Resume**
+
 https://natallia-js.github.io/rsschool-cv/cv
