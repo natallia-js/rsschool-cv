@@ -1,0 +1,60 @@
+body {
+    color: black;
+}
+
+.main-block {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: peachpuff;
+}
+
+.photo {
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin: 10px 30px 10px 10px;
+    padding: 10px;
+    border: 2px solid lightsalmon;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+header {
+    color: darkslateblue;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightsalmon;
+    line-height: 2em;
+}
+
+li {
+    line-height: 1.3em;
+    vertical-align: middle;
+}
+
+.outer-li {
+    line-height: 2em;
+}
+
+.bold {
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+    color: darkslateblue;
+}
+
+.italic {
+    font-style: italic;
+    color: darkslateblue;
+}
