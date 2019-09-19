@@ -1,100 +1,95 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Resume - Natallia Fedartsova</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="main-block">
-            <header>
-                RESUME
-            </header>
-            <img src="NF.gif" class="photo">
-            <ol>
-                <li class="outer-li">
-                    <span class="bold">First Name:</span> Natallia, <span class="bold">Last Name:</span> Fedartsova
-                </li>
-                <li class="outer-li">
-                    <span class="bold">Contact Info:</span>
-                    <ul>
-                        <li>
-                            <span class="bold-italic">Telephone Number:</span> +375295773719
-                        </li>
-                        <li>
-                            <span class="bold-italic">e-mail:</span> fedartsova@tut.by
-                        </li>
-                    </ul>
-                </li>
-                <li class="outer-li">
-                    <span class="bold">Summary:</span> <br>
-                    I just adore studying and creating smth new!
-                    At the present time, in programming, my goal is a perfect use of HTML, CSS and JS... 
-                </li>
-                <li class="outer-li">
-                    <span class="bold">Skills:</span> <br>
-                    C++, Delphi, C#, HTML, CSS, Firebid, MS SQL, HTML, CSS, ... 
-                </li>
-                <li class="outer-li">
-                    <span class="bold">Code examples:</span> <br>
-                    I wonder what I should write here? Several lines of code? What kind of code? What language?... What for?
-                </li>     
-                <li class="outer-li">
-                    <span class="bold">Experience:</span>
-                    <ul>
-                        <li><span class="bold-italic">My Main Projects for Belarussian Railway:</span></li>
-                        <ul>
-                            <li>Software for loggin traffic controller's orders as a part of a train control system (C++, Firebird)</li>
-                            <li>Unified system for maintaining the schedule of executed train traffic (C#, MS SQL)</li>
-                            <li>Information base for objects that are built for Belarussian Railway (Delphi, Firebird)</li>
-                            <li>Security Task for the "Neman" Dispatching System (document)</li>
-                        </ul>
-                    </ul>
-                </li>
-                <li class="outer-li">
-                    <span class="bold">Education:</span>
-                    <ul>
-                        <li>
-                            <span class="bold-italic">Belarussian State University of Computer Science and Radioengineering</span><br>
-                            <span class="italic">Speciality:</span> Computer Science<br>
-                            <span class="italic">Qualification:</span> mathematician - system programmer (bachelor)
-                        </li>
-                        <li><span class="bold-italic">Belarussian State University of Computer Science and Radioengineering</span><br>
-                            <span class="italic">Speciality:</span> Applied Mathematics and Computer Science<br>
-                            <span class="italic">Qualification:</span> master of engineering
-                        </li>
-                        <li><span class="bold-italic">National Academy of Sciences</span><br>
-                            PhD (physical and mathematical sciences)
-                        </li>
-                        <li><span class="bold-italic">Trainings:</span>
-                            <ul>
-                                <li>
-                                    <span class="italic">Institute of Control and Social Technologies, Belarussian State University</span><br>
-                                    Course: Dynamic web-pages developing using JavaScript
-                                </li>
-                                <li>
-                                    <span class="italic">Belarussian State Institute for Continuing Education and Retraining of Personnel in Standardization, Metrology and Quality Management</span><br>
-                                    Course: Certification of products and services (training of railway expert auditors)
-                                </li>
-                                <li>
-                                    <span class="italic">Institute of Informatization and Management Technologies, Belarussian State University</span><br>
-                                    Course: Development of security tasks based on security profiles
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="outer-li">
-                    <span class="bold">English:</span>
-                    <ul>
-                        <li>
-                            3-year course of abstracting and translation of scientific and technical literature, Belarussian State University of Computer Science and Radioengineering<br>
-                            <span class="italic">Qualification:</span> referent translator of scientific and technical literature (English)
-                        </li>
-                        <li>2 weeks at ESE school, Malta (English)</li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Natallia Fedartsova - Resume</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+<body>
+  <div class="main-block" itemscope itemtype ="http://schema.org/Person">
+    <header>
+      RESUME
+    </header>
+    <img class="photo" src="NF.gif" alt="">
+    <ol>
+      <li class="outer-li">
+        <span class="bold">First Name:</span> <span itemprop="givenName">Natallia</span>,
+        <span class="bold">Last Name:</span> <span itemprop="familyName">Fedartsova</span>
+      </li>
+      <li class="outer-li" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+        <span class="bold">Contact Info:</span><br>
+        <span class="bold italic left-indent">Telephone Number:</span> <span itemprop="telephone">+375295773719</span><br>
+        <span class="bold italic left-indent">e-mail:</span> <span itemprop="email">fedartsova@tut.by</span>
+      </li>
+      <li class="outer-li">
+        <span class="bold">Summary:</span> <br>
+        I just adore studying and creating smth new!
+        At the present time, in programming, my goal is a perfect use of HTML, CSS and JS...
+      </li>
+      <li class="outer-li">
+        <span class="bold">Skills:</span> <br>
+        <span itemprop="knowsAbout">C++, Delphi, C#, HTML, CSS, Firebid, MS SQL, HTML, CSS, ...</span>
+      </li>
+      <li class="outer-li">
+        <span class="bold">Code examples:</span> <br>
+        I wonder what I should write here? Several lines of code? What kind of code? What language?... What for?
+      </li>
+      <li class="outer-li">
+        <span class="bold">Experience:</span>
+        <ul>
+          <li><span class="bold italic">My Main Projects for <span itemprop="worksFor">Belarussian Railway</span>:</span></li>
+          <ul>
+            <li>Software for loggin traffic controller's orders as a part of a train control system (C++, Firebird)</li>
+            <li>Unified system for maintaining the schedule of executed train traffic (C#, MS SQL)</li>
+            <li>Information base for objects that are built for Belarussian Railway (Delphi, Firebird)</li>
+            <li>Security Task for the "Neman" Dispatching System (document)</li>
+          </ul>
+        </ul>
+      </li>
+      <li class="outer-li">
+        <span class="bold">Education:</span>
+        <ul>
+          <li>
+            <span class="bold italic" itemprop="alumniOf">Belarussian State University of Computer Science and Radioengineering</span><br>
+            <span class="italic">Speciality:</span> Computer Science<br>
+            <span class="italic">Qualification:</span> mathematician - system programmer (bachelor)
+          </li>
+          <li><span class="bold italic" itemprop="alumniOf">Belarussian State University of Computer Science and Radioengineering</span><br>
+            <span class="italic">Speciality:</span> Applied Mathematics and Computer Science<br>
+            <span class="italic">Qualification:</span> master of engineering
+          </li>
+          <li><span class="bold italic" itemprop="alumniOf">Institute of Mathematics, National Academy of Sciences</span><br>
+            PhD (physical and mathematical sciences)
+          </li>
+          <li><span class="bold italic">Trainings:</span>
+            <ul>
+              <li>
+                <span class="italic">Institute of Control and Social Technologies, Belarussian State University</span><br>
+                Course: Dynamic web-pages developing using JavaScript
+              </li>
+              <li>
+                <span class="italic">Belarussian State Institute for Continuing Education and Retraining of Personnel in Standardization, Metrology and Quality Management</span><br>
+                Course: Certification of products and services (training of railway expert auditors)
+              </li>
+              <li>
+                <span class="italic">Institute of Informatization and Management Technologies, Belarussian State University</span><br>
+                Course: Development of security tasks based on security profiles
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="outer-li">
+        <span class="bold" itemprop="knowsLanguage">English:</span>
+        <ul>
+          <li>
+            3-year course of abstracting and translation of scientific and technical literature, Belarussian State University of Computer Science and Radioengineering<br>
+            <span class="italic">Qualification:</span> referent translator of scientific and technical literature (English)
+          </li>
+          <li>2 weeks at ESE school, Malta (English)</li>
+        </ul>
+      </li>
+    </ol>
+</div>
+</body>
 </html>
